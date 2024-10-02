@@ -128,7 +128,7 @@ def create_graphs_entropy(DIRECTORY_PATH):
         FILE_PATH = DIRECTORY_PATH + FILES
 
         database = create_database_for_grapf_UTF_8(FILE_PATH)
-        create_graph_entropy_for_set_size(FILE_PATH, FILES, size=400)
+        create_graph_entropy_for_set_size(FILE_PATH, FILES, size=500)
 
 if __name__ == '__main__':
 
