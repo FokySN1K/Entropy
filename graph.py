@@ -45,7 +45,7 @@ def create_database_for_grapf_UTF_8(FILES_PATH):
 
 def create_graph_for_file_UTF_8(database: list, FILE: str):
 
-    DIRECTORY_PATH = 'GRAPHICS/'
+    DIRECTORY_PATH = 'GRAPHS/'
     file = DIRECTORY_PATH + FILE + ".png"
 
     total_sum = sum([i[0] for i in database])
