@@ -97,8 +97,9 @@ def create_graph_entropy_for_set_size(FILES_PATH: str, FILE: str, size: int):
         x.append(i + size)
 
     fig = plt.figure(figsize=(20, 20))
-    plt.plot(x, y, label="Entropy")
+    plt.plot(x, y, label=f"Entropy. The shift step {size}")
     plt.grid()
+    plt.legend()
     #plt.show()
     plt.savefig(file, dpi=fig.dpi)
 
